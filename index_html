@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tab Title -->
+    <title>Cybersecurity Student | Portfolio</title>
+    <!-- CSS Stylesheet Link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#hero">&lt;CyberSec /&gt;</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects & Labs</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">[Your Name]</span></h1>
+                <h2>Cybersecurity Student & Aspiring Security Professional</h2>
+                <p>Currently studying the fundamentals of network security, ethical hacking, and system defense. Building hands-on labs and exploring web application security.</p>
+                <a href="#projects" class="btn">View My Labs</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <h2>About Me</h2>
+            <p>I am a first-year Cybersecurity student passionate about understanding how systems work—and how they fail. My current focus areas include network analysis, Linux administration, and secure coding practices.</p>
+            
+            <div class="skills-container">
+                <h3>Technical Interests & Tools</h3>
+                <ul>
+                    <li>Linux Command Line (Bash)</li>
+                    <li>Network Traffic Analysis (Wireshark)</li>
+                    <li>Web Fundamentals (HTML, CSS, JavaScript)</li>
+                    <li>Virtualization (VirtualBox, VMware)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects & Labs Section -->
+        <section id="projects" class="projects-section">
+            <h2>Projects & Hands-On Labs</h2>
+            <div class="project-grid">
+                
+                <!-- Project Card 1 -->
+                <article class="project-card">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>Designed and coded a responsive web portfolio from scratch using HTML, CSS, and JavaScript to showcase lab projects and demonstrate web security practices.</p>
+                    <span class="tag">HTML/CSS/JS</span>
+                    <span class="tag">Git</span>
+                </article>
+
+                <!-- Project Card 2 (Placeholder for future lab) -->
+                <article class="project-card">
+                    <h3>Home Network Security Lab</h3>
+                    <p>Set up a isolated virtual environment using VirtualBox to analyze traffic between an attacking machine and a vulnerable target VM.</p>
+                    <span class="tag">VirtualBox</span>
+                    <span class="tag">Wireshark</span>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Certifications & Education -->
+        <section id="certifications" class="certs-section">
+            <h2>Education & Studies</h2>
+            <ul>
+                <li><strong>B.S. in Cybersecurity</strong> — [Your University/College] (In Progress)</li>
+                <li><strong>Studying Towards:</strong> CompTIA Security+ / Network+</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2>Get In Touch</h2>
+            <p>Feel free to reach out for lab collaborations, networking, or internship opportunities.</p>
+            
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="name@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Your message here..."></textarea>
+                </div>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 [Your Name]. All rights reserved.</p>
+        <div class="social-links">
+            <!-- Note: rel="noopener noreferrer" prevents tab-nabbing vulnerabilities -->
+            <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://linkedin.com/in/YOUR-PROFILE" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+    </footer>
+
+    <!-- JavaScript Link -->
+    <script src="script.js"></script>
+</body>
+</html>
+
